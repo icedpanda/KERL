@@ -1,6 +1,6 @@
 # KERL
 
-Knowledge Graphs and Pre-trained Language Models enhanced Representation Learning for Conversational Recommender Systems
+[Knowledge Graphs and Pre-trained Language Models enhanced Representation Learning for Conversational Recommender Systems](https://arxiv.org/abs/2312.10967)
 
 <img src="assets/model_overview_v2-1.png" width = "1000" />
 
@@ -48,8 +48,8 @@ python main.py -c config/redial_kerl.yaml
 
 You can download the saved models for two datasets from the following links:
 
-1. Inspired Model: [Download](https://drive.google.com/file/d/1-0Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z/view?usp=sharing)
-2. Redial Model: [Download](https://drive.google.com/file/d/1-0Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z/view?usp=sharing)
+1. Inspired Model: [Download](https://www.dropbox.com/scl/fo/urnpek5rcq2vantxpxwkt/h?rlkey=tte9f6a5nnjii6zd79igvwt27&dl=0)
+2. Redial Model: [Download](https://www.dropbox.com/scl/fo/pmb12w3fnfu2k0t6tsrav/h?rlkey=gy59emftp8nd4mnyaqk8wyn2l&dl=0)
 
 
 Place the downloaded `saved` folder in the root directory.
