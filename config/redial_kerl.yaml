@@ -1,0 +1,58 @@
+task: crs
+# model
+model: kerl
+dataset: redial
+tokenizer: bart
+# dataset
+context_truncate: 512
+response_truncate: 30
+descr_truncate: 40
+use_description: true
+max_entity_length: 64
+# rec model
+use_context: true
+text_pooling_type: attention
+text_pooling_head: 4
+# kg
+kg_embedding_dim: 256
+n_bases: 8
+position_encoding: true
+max_n_positions: 30
+use_kg_loss: true
+kg_config:
+    neg_batch_size: 128
+    kg_batch_size: 512
+    kg_margin: 10
+    pretrain_lr: 0.0001
+    pretrain_bart_lr: 0.00001
+    weight_decay: 0
+    epoch: 10
+    pretrain_reload: True
+    pretrain_model_path: "saved/redial/pretrained/last.ckpt"
+rec:
+    epochs: 30
+    batch_size: 128
+    lr: 0.0006
+    bart_lr: 0.00002
+    weight_decay: 0.001
+    early_stop: True
+    early_stop_patience: 5
+    num_cycles: 0.5
+    rec_reload: True
+    rec_model_path: "saved/redial/rec/best.ckpt"
+conv:
+    epochs: 10
+    batch_size: 128
+    lr: 0.0001
+    weight_decay: 0.001
+    early_stop: True
+    early_stop_patience: 3
+    num_cycles: 0.5
+    conv_reload: True
+    conv_model_path: "saved/redial/gen/best.ckpt"
+seed: 10
+# logger
+logger: wandb
+additional_notes: "kerl_redial"
+# restore
+restore: false
