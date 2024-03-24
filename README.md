@@ -2,7 +2,7 @@
 
 Knowledge Graphs and Pre-trained Language Models enhanced Representation Learning for Conversational Recommender Systems
 
-<img src="assets/model_overview_v2.pdf" width = "800" />
+<img src="assets/model_overview_v2-1.png" width = "1000" />
 
 KERL leverages the power of knowledge graphs and pre-trained language models to generate semantically rich entity representations, enabling more accurate recommendations and engaging user interactions.
 
