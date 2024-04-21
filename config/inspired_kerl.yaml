@@ -30,7 +30,7 @@ kg_config:
     pretrain_reload: true
     pretrain_model_path: "saved/inspired/pretrained/last.ckpt"
 rec:
-    epochs: 30
+    epochs: 31
     batch_size: 128
     lr: 0.0006
     bart_lr: 0.00002
