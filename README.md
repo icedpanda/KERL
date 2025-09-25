@@ -58,16 +58,15 @@ and `<phase>_model_path` with the path of the downloaded model.
 ## Citation
 
 ```
-@article{10530439,
-	title        = {Knowledge Graphs and Pretrained Language Models Enhanced Representation Learning for Conversational Recommender Systems},
-	author       = {Qiu, Zhangchi and Tao, Ye and Pan, Shirui and Liew, Alan Wee-Chung},
-	year         = 2024,
-	journal      = {IEEE Transactions on Neural Networks and Learning Systems},
-	volume       = {},
-	number       = {},
-	pages        = {1--15},
-	doi          = {10.1109/TNNLS.2024.3395334}
-}
+@ARTICLE{10530439,
+  author={Qiu, Zhangchi and Tao, Ye and Pan, Shirui and Liew, Alan Wee-Chung},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Knowledge Graphs and Pretrained Language Models Enhanced Representation Learning for Conversational Recommender Systems}, 
+  year={2025},
+  volume={36},
+  number={4},
+  pages={6107-6121},
+  doi={10.1109/TNNLS.2024.3395334}}
 ```
 
 ## Acknowledgements
